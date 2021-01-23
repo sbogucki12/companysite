@@ -1,3 +1,17 @@
+## January 23, 2021
+
+<p>Landing page, dialogs, with click away listeners</p>
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/landingPageGif1.gif" />
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

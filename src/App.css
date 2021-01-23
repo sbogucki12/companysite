@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: center;  
 }
 
 .App-logo {
@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+
+/* Landing Style Start */
+
+#main {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+#landingContainer {
+  min-height: 100vh;
+  display: flex; 
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;  
+}
+
+#landingBox {
+  width: 80%;
+  border: 5px solid var(--primary-color-lightest);
+  box-shadow: -5px 5px 5px var(--secondary-color-lighter);
+  /*opacity: 1;*/
+	/*animation-name: '';*/
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+  animation-duration: 1s;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding-bottom: 2vh;
+}
+
+/*Landing Style End */
+
+/* Dialog Style Start */
+
+#dialogContainer {
+  min-height: 100vh;
+  display: flex; 
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+#dialogBox {
+  width: 80%;
+  border: 5px solid var(--primary-color-lightest);
+  box-shadow: -5px 5px 5px var(--secondary-color-lighter);
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOutOpacity {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+
+/* Dialog Style End */
