@@ -37,14 +37,8 @@
   }
 }
 
-/* Landing Style Start */
 
-#main {
-  display: flex; 
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;  
-}
+/* Landing Style Start */
 
 #landingContainer {
   min-height: 100vh;
@@ -72,6 +66,46 @@
 }
 
 /*Landing Style End */
+
+/* Main Style Start */
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainBox {
+  border: 5px solid red;
+  width: 70vw;
+  height: 70vh;
+}
+
+#about {
+    position: absolute;
+    top: 15%;
+    left: 12.5%;    
+}
+
+#experience {
+  position: absolute;
+  top: 25%;
+  left: 82%;
+}
+
+#values {
+  position: absolute;
+  top: 60%;
+  left: 12.5%;
+}
+
+#contact {
+  position: absolute;
+  left: 82.5%;
+  top: 80%;
+}
+
+/* Main Style End */
 
 /* Dialog Style Start */
 

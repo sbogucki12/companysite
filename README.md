@@ -1,3 +1,9 @@
+## January 31, 2021
+
+<p>I'm kinda designing this as I go...</p>
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/main01312021.gif"
+
+
 ## January 23, 2021
 
 <p>Landing page, dialogs, with click away listeners</p>

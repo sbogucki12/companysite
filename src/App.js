@@ -20,24 +20,26 @@ function App() {
 	const Btn = (props) => {
 		return (
 			<div>
-				<button onClick={(e) => onClickSetDialog(e, props.component)}>{props.label}</button>
+				<button style={{whiteSpace: 'nowrap'}} onClick={(e) => onClickSetDialog(e, props.component)}>{props.label}</button>
 			</div>
 		);
 	};
 
 	const main = (
 		<div id="main" onClick={(e) => onClickSetDialog(e, 'main')} style={{ minHeight: '100vh' }}>
-			<div id="about">
-				<Btn component={'about'} label={'Show About'} />
-			</div>
-			<div id="experience">
-				<Btn component={'experience'} label={'Show Experience'} />
-			</div>
-			<div id="values">
-				<Btn component={'values'} label={'Show Values'} />
-			</div>
-			<div id="contact">
-				<Btn component={'contact'} label={'Show Contact'} />
+			<div id="mainBox">
+				<div id="about">
+					<Btn component={'about'} label={'Show About'} />
+				</div>
+				<div id="experience">
+					<Btn component={'experience'} label={'Show Experience'} />
+				</div>
+				<div id="values">
+					<Btn component={'values'} label={'Show Values'} />
+				</div>
+				<div id="contact">
+					<Btn component={'contact'} label={'Show Contact'} />
+				</div>
 			</div>
 		</div>
 	);
