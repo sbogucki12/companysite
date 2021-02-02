@@ -12,7 +12,10 @@ const Landing = (props) => {
 					<button
 						onClick={() => {
 							setAnimation('fadeOutOpacity');
-							setTimeout(() => props.setDialog('main'), 1000);
+							setTimeout(() => {
+								props.setDialog('main');
+								props.setShowLanding(false);
+							}, 1000);
 						}}
 					>
 						Enter

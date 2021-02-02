@@ -73,6 +73,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 #mainBox {
@@ -105,20 +106,27 @@
   top: 80%;
 }
 
+#homeButtonContainer {
+  padding-top: 5vh; 
+  margin-bottom: -5vh;
+}
+
 /* Main Style End */
 
 /* Dialog Style Start */
 
 #dialogContainer {
-  min-height: 100vh;
+  min-height: 100%;
   display: flex; 
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   justify-content: center;
   align-items: center;
+  z-index: 1000;
 }
 
 #dialogBox {
+  z-index: 1100;
   width: 80%;
   border: 5px solid var(--primary-color-lightest);
   box-shadow: -5px 5px 5px var(--secondary-color-lighter);

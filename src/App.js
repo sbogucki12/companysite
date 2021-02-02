@@ -5,6 +5,7 @@ import Landing from './Landing';
 
 function App() {
 	const [dialog, setDialog] = useState('landing');
+	const [showLanding, setShowLanding] = useState(true);
 
 	function onClickSetDialog(e, component) {
 		e.stopPropagation();
@@ -20,14 +21,16 @@ function App() {
 	const Btn = (props) => {
 		return (
 			<div>
-				<button style={{whiteSpace: 'nowrap'}} onClick={(e) => onClickSetDialog(e, props.component)}>{props.label}</button>
+				<button style={{ whiteSpace: 'nowrap' }} onClick={(e) => onClickSetDialog(e, props.component)}>
+					{props.label}
+				</button>
 			</div>
 		);
 	};
 
-	const main = (
-		<div id="main" onClick={(e) => onClickSetDialog(e, 'main')} style={{ minHeight: '100vh' }}>
-			<div id="mainBox">
+	function ButtonsMain() {
+		return (
+			<div>
 				<div id="about">
 					<Btn component={'about'} label={'Show About'} />
 				</div>
@@ -41,33 +44,54 @@ function App() {
 					<Btn component={'contact'} label={'Show Contact'} />
 				</div>
 			</div>
-		</div>
-	);
+		);
+	}
 
-	let view = main;
+	let dialogView = null;
 
 	switch (dialog) {
 		case 'about':
-			view = <DialogMain label={'about'} clickAwaySetDialog={clickAwaySetDialog} />;
+			dialogView = <DialogMain label={'about'} clickAwaySetDialog={clickAwaySetDialog} />;
 			break;
 		case 'experience':
-			view = <DialogMain label={'experience'} clickAwaySetDialog={clickAwaySetDialog} />;
+			dialogView = <DialogMain label={'experience'} clickAwaySetDialog={clickAwaySetDialog} />;
 			break;
 		case 'values':
-			view = <DialogMain label={'values'} clickAwaySetDialog={clickAwaySetDialog} />;
+			dialogView = <DialogMain label={'values'} clickAwaySetDialog={clickAwaySetDialog} />;
 			break;
 		case 'contact':
-			view = <DialogMain label={'contact'} clickAwaySetDialog={clickAwaySetDialog} />;
+			dialogView = <DialogMain label={'contact'} clickAwaySetDialog={clickAwaySetDialog} />;
 			break;
 		case 'main':
-			view = main;
+			dialogView = null;
 			break;
 		case 'landing':
-			view = <Landing setDialog={setDialog} />;
+			dialogView = null;
+			//<Landing setDialog={setDialog} />;
 			break;
 		default:
-			view = main;
+			dialogView = null;
 	}
+
+	let main = <Landing setDialog={setDialog} setShowLanding={setShowLanding}/>
+
+	if(!showLanding){
+		main = (
+			<div id="main" onClick={(e) => onClickSetDialog(e, 'main')} style={{ minHeight: '100vh' }}>
+				<div id="mainBox">
+					<ButtonsMain />
+					{dialogView}
+				</div>
+				<div id="homeButtonContainer">
+					<button onClick={() => setShowLanding(true)}>
+						Home
+					</button>
+				</div>
+			</div>
+		);
+	}
+
+	let view = main;
 
 	return <div className="App">{view}</div>;
 }

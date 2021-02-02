@@ -1,7 +1,13 @@
+## February 1, 2021
+
+<p>Working toward something, hopefully...</p>
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/main02012021.gif" />
+
+
 ## January 31, 2021
 
 <p>I'm kinda designing this as I go...</p>
-<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/main01312021.gif"
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/main01312021.gif" />
 
 
 ## January 23, 2021
