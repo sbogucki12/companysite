@@ -1,4 +1,30 @@
-import './App.css';
+import React from 'react';
+import { Switch, Route } from "react-router-dom";
+import OldApp from './OldApp.jsx';
+import NewStyleHome from './newStyle/NewStyleHome';
+
+function App () {
+	return (
+		<div>
+			<Switch>
+				<Route exact path="/old">
+					<OldApp />
+				</Route>
+				<Route exact path="/">
+					<NewStyleHome />
+				</Route>
+			</Switch>
+
+		</div>
+	)
+}; 
+
+export default App; 
+
+
+
+
+/*import './App.css';
 import { useState } from 'react';
 import DesktopBase from './desktop/DesktopBase';
 
@@ -24,4 +50,4 @@ function App() {
 	return <div>{view}</div>;
 }
 
-export default App;
+export default App;*/
