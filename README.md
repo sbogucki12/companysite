@@ -1,3 +1,9 @@
+## February 22, 2021
+
+<p>Gonna play around with Material UI</p>
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/newStyle0.jpg" />
+
+
 ## February 1, 2021
 
 <p>Working toward something, hopefully...</p>
