@@ -1,21 +1,36 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import background_black_blue_gold_verticle_stripes from './backgroundImages/black_blue_gold_verticle_stripes.jpg';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles, styled } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
-    root: {
-      backgroundImage: background_black_blue_gold_verticle_stripes,
-      width: '100vw', 
-      height: '100vh'   
-    },
-  });
+	root: {
+		position: `relative`,
+		height: `100vh`,
+		width: `100vw`,
+		display: `flex`,
+		alignItems: `center`,
+		justifyContent: `center`,
+		'&::before': {
+			content: `""`,
+			backgroundImage: `url(${background_black_blue_gold_verticle_stripes})`,
+			backgroundSize: `cover`,
+			position: `absolute`,
+			top: `0px`,
+			right: `0px`,
+			bottom: `0px`,
+			left: `0px`,
+			opacity: `0.4`,
+		},
+	},
+});
+
 function NewStyleHome() {
-    const classes = useStyles();
+	const classes = useStyles();
 
 	return (
 		<div className={classes.root}>
-			<Button variant="contained" color="primary">
+			<Button variant="outlined" color="secondary">
 				Hello World
 			</Button>
 		</div>
