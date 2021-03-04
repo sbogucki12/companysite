@@ -14,14 +14,3 @@
 	color: var(--text-color-primary);
 	background-color: var(--primary-color);
 }
-
-body {
-	font-family: var(--primary-font);
-  min-height: 200vh;
-}
-
-#mainHeader {
-  background-color: var(--primary-color-dark);
-  border-bottom: 5px solid var(--primary-color-light);
-  width: 100vw;
-}
