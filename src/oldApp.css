@@ -1,0 +1,175 @@
+.App {
+    text-align: center;  
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  /* Landing Style Start */
+  
+  #landingContainer {
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;  
+  }
+  
+  #landingBox {
+    width: 80%;
+    border: 5px solid var(--primary-color-lightest);
+    box-shadow: -5px 5px 5px var(--secondary-color-lighter);
+    border-radius: 10px;
+    /*opacity: 1;*/
+      /*animation-name: '';*/
+      animation-iteration-count: 1;
+      animation-timing-function: ease-out;
+    animation-duration: 1s;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 2vh;
+  }
+  
+  /*Landing Style End */
+  
+  /* Main Style Start */
+  
+  #main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100vw;
+  }
+  
+  #mainBox {
+    /*border: 5px solid var(--secondary-color-lighter);*/
+    width: 70vw;
+    height: 70vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #mainBoxInner{
+    display: flex; 
+    min-width: 86vw;
+    justify-content: flex-start;
+  }
+  
+  #about {
+      justify-self: start;
+      margin-right: auto;
+      /*position: absolute;
+      top: 15%;
+      left: 12.5%;*/    
+  }
+  
+  #experience {
+    margin-left: auto;
+    /*position: absolute;
+    top: 25%;
+    left: 82%;*/
+  }
+  
+  #values {
+    /*position: absolute;
+    top: 60%;
+    left: 12.5%;*/
+  }
+  
+  #contact {
+    /*position: absolute;
+    left: 82.5%;
+    top: 80%;*/
+    align-self: flex-end;
+  }
+  
+  #homeButtonContainer {
+    padding-top: 5vh; 
+    margin-bottom: -5vh;
+  }
+  
+  /* Main Style End */
+  
+  /* Dialog Style Start */
+  
+  #dialogContainer {
+    min-height: 100%;
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;  
+  }
+  
+  #dialogBox {
+    z-index: 1100;
+    width: 80%;
+    border: 5px solid var(--primary-color-lightest);
+    box-shadow: -5px 5px 5px var(--secondary-color-lighter);  
+    border-radius: 10px;
+    opacity: 1;
+      animation-name: fadeInOpacity;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+    animation-duration: 1s;  
+  }
+  
+  @keyframes fadeInOpacity {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  @keyframes fadeOutOpacity {
+      0% {
+          opacity: 1;
+      }
+      100% {
+          opacity: 0;
+      }
+  }
+  
+  
+  /* Dialog Style End */
