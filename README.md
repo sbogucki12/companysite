@@ -1,3 +1,13 @@
+## March 3, 2021
+
+<ul>
+<li>Archived old work</li>
+<li>Creating a custom  contact menu. Mostly CSS</li>
+</ul>
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/footerContactMenuGIF.gif" />
+
+
+
 ## February 22, 2021
 
 <p>Gonna play around with Material UI</p>
