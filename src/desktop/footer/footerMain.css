@@ -1,0 +1,21 @@
+#footerMainContainer {
+    background-color: var(--primary-color-dark);
+    border-top: 5px solid var(--primary-color-light);    
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 1vw 0 1vw;
+}
+
+#footerContactMenu {
+    background-color: var(--secondary-color-dark);
+    color: var(--text-color-secondary);
+    border: 5px solid var(--primary-color-dark);
+    border-bottom: 5px solid var(--primary-color-light);    
+    position: absolute;
+    bottom: calc(5px + 1rem);
+    right: 1vw;     
+}
+
+#footerShowContactMenuButton {
+    padding-right:  4rem;
+}
