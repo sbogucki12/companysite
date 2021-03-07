@@ -12,11 +12,11 @@ function FooterMain() {
             <div>
                 Footer!
             </div>
-            <div id='footerContactMenu'>
+            
                 <div>
-                    { showFooterContactMenu ? <FooterContactMenu setShowFooterContactMenu={setShowFooterContactMenu}  /> : footerContactMenu }
+                    { showFooterContactMenu ? <div id='footerContactMenu'><FooterContactMenu setShowFooterContactMenu={setShowFooterContactMenu}  /> </div>: footerContactMenu }
                 </div>
-            </div>
+            
             {showFooterContactMenu ? null :
             <div id='footerShowContactMenuButton'>
                 <div onClick={() => setShowFooterContactMenu(true)}>
