@@ -1,6 +1,6 @@
 function TeamMemberCardBio(props) {
     return (
-        <div id="teamMemberCardBio">
+        <div className="teamMemberCardBio">
 				<div>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget maximus ligula. Curabitur
 					facilisis vestibulum sapien, eget lobortis purus. Sed dignissim accumsan neque, eget luctus metus

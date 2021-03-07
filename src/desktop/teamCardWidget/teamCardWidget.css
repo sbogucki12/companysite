@@ -1,0 +1,25 @@
+#teamCardWidget{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color-dark);
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+#meetOurTeamTitle{
+    background-color: var(--secondary-color);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    color: var(--text-color-primary);
+}
+
+#teamMemberCardRow {
+    display: flex; 
+    background-color: var(--primary-color-light);  
+    padding: 1%;  
+
+}

@@ -1,4 +1,4 @@
-#teamMemberCardContainer {
+.teamMemberCardContainer {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -8,10 +8,12 @@
     padding-left: 2vw;
     padding-right: 2vw;
     padding-bottom: 2vh;
-    position: absolute;
+    position: relative; 
+    margin-right: 1px
+
 }
 
-#teamMemberNameTitleContainer {
+.teamMemberNameTitleContainer {
     position: absolute;
     top: 10%; 
     left: 40%;
@@ -22,16 +24,18 @@
     text-align: center;
 }
 
-#teamMemberCardImage {   
-    position: relative;       
+.teamMemberCardImage {   
+    position: relative; 
+      
 }
 
-#teamMemberCardBio {
+.teamMemberCardBio {
     position: relative; 
     margin-top: -5vh;  
-    max-width: 250px;
+    max-width: 175px;
+    font-size: 70%;
     background-color: var(--primary-color-light);
-    opacity: .8;
+    opacity: .9;
     display: flex;
     flex-direction: column;
     align-items: center;
