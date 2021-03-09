@@ -1,0 +1,35 @@
+#contactFooter{
+    position: absolute;
+    bottom: 0;
+    background-color: var(--primary-color-dark);
+    border-top: 5px solid var(--primary-color-light);    
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 1vw 0 1vw;
+    width: 98vw;
+}
+
+#contactFormContainer{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    min-height: 95vh; 
+    color: var(--text-color-primary);
+    font-size: 1rem;  
+}
+
+#contactFormBox {
+    background-color: var(--secondary-color-dark);
+    border: 5px solid var(--primary-color-dark);
+    border-radius: 2%;
+    padding: 1%; 
+    box-shadow: -5px 10px 5px var(--primary-color-dark)
+}
+
+#contactForm {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

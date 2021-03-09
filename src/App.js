@@ -1,6 +1,7 @@
 import './app.css'
 import { useState } from 'react';
 import DesktopBase from './desktop/DesktopBase';
+import DesktopRouter from './desktop/DesktopRouter';
 
 function App() {
 	const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
@@ -18,7 +19,7 @@ function App() {
 			</div>
 		);
 	} else if (viewportWidth >= 450) {
-		view = <DesktopBase />;
+		view = <DesktopRouter />;
 	}
 
 	return <div>{view}</div>;
