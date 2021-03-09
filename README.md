@@ -1,3 +1,18 @@
+## March 8, 2021 
+
+<p>Working on a contact component:</p>
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/contact1GIF.gif" />
+
+
+
+## March 6, 2021 
+
+<p>Making a little image / bio card for team members</p>
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/teamMemberWidgetGIF.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/teamPicCardRowGIF.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/teamMemberCardGIF.gif" />
+
+
 ## March 3, 2021
 
 <ul>
@@ -10,7 +25,7 @@
 
 ## February 22, 2021
 
-<p>Gonna play around with Material UI</p>
+<p>Gonna play around with Material UI:</p>
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/newStyle0.jpg" />
 
 
