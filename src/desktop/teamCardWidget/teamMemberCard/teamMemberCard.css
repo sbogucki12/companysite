@@ -1,0 +1,44 @@
+.teamMemberCardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: var(--primary-color-dark);
+    padding-top: 8vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+    position: relative; 
+    margin-right: 1px
+
+}
+
+.teamMemberNameTitleContainer {
+    position: absolute;
+    top: 10%; 
+    left: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.teamMemberCardImage {   
+    position: relative; 
+      
+}
+
+.teamMemberCardBio {
+    position: relative; 
+    margin-top: -5vh;  
+    max-width: 175px;
+    font-size: 70%;
+    background-color: var(--primary-color-light);
+    opacity: .9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--text-color-primary)
+}

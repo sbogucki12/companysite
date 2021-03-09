@@ -1,3 +1,11 @@
+## March 6, 2021 
+
+<p>Making a little image / bio card for team members</p>
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/teamMemberWidgetGIF.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/teamPicCardRowGIF.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/teamMemberCardGIF.gif" />
+
+
 ## March 3, 2021
 
 <ul>
