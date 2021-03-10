@@ -1,4 +1,10 @@
-## March 8, 2021 
+## March 9, 2021 
+
+<p>More on the contact component:</p>
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/contact2GIF.gif" />
+
+
+# March 8, 2021 
 
 <p>Working on a contact component:</p>
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/contact1GIF.gif" />

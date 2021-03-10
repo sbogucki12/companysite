@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
 import './contact.css';
-import ContactForm from './ContactForm';
+import ContactFormMain from './ContactFormMain';
 
 function Contact() {    
 	return (
 		<div>
 			<div>
-				<ContactForm />
+				<ContactFormMain />
 			</div>
 			<div id='contactFooter'>
 				<div>Footer!</div>
