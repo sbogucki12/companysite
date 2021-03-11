@@ -1,3 +1,8 @@
+## March 10, 2021 
+
+<p>Styling the layout:</p>
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/layout0GIF.gif" />
+
 ## March 9, 2021 
 
 <p>More on the contact component:</p>

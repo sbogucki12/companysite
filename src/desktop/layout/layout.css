@@ -1,0 +1,42 @@
+#layoutContainer {     
+    background-color: var(--primary-color-dark);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: column;    
+}
+
+#layoutRow0Container {   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color-light);
+    width: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    min-height: 40vh;
+    border-bottom: solid 5px var(--secondary-color-dark);
+    border-bottom-left-radius: 25%;
+}
+
+#layoutRow1Container {
+    width: 100%; 
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#layoutRow2Container {
+    background-color: var(--secondary-color-dark);
+    min-width: 100%;
+    min-height: 30vh;
+    color: var(--text-color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 5px var(--primary-color-light);
+    border-top-right-radius: 25%;
+}
