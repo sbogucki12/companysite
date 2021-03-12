@@ -1,0 +1,15 @@
+#ourCompanyContainer {
+    display: grid;
+    grid-template-columns: 5vw 10vw 20vw 60vw 5vw;
+    min-width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+#ourCompanyArrowContainer {
+    font-size: 5rem;
+}
+#ourCompanyBioContainer {
+    justify-self: start;
+    font-size: small;
+}

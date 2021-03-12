@@ -1,6 +1,7 @@
 import React from 'react';
 import FooterMain from './footer/FooterMain';
 import TeamCardWidget from './teamCardWidget/TeamCardWidget';
+import OurCompany from './ourCompany/OurCompany';
 import Layout from './layout/Layout';
 import '../app.css';
 import './desktopBase.css';
@@ -19,7 +20,7 @@ function DesktopBase() {
 						row1: <TeamCardWidget />,
 						row2: (
 							<div>
-								<h2>Row2</h2>
+								<OurCompany />
 							</div>
 						),
 					}}
