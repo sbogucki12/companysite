@@ -20,6 +20,5 @@
 #teamMemberCardRow {
     display: flex; 
     background-color: var(--primary-color-light);  
-    padding: 1%;  
-
+    padding: 1%; 
 }

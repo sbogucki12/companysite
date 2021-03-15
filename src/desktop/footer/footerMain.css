@@ -1,6 +1,6 @@
 #footerMainContainer {
     background-color: var(--primary-color-dark);
-    border-top: 5px solid var(--primary-color-light);    
+    border-top: 2px solid var(--secondary-color-dark);    
     display: flex; 
     justify-content: space-between;
     padding: 0 1vw 0 1vw;
@@ -10,7 +10,7 @@
     background-color: var(--secondary-color-dark);
     color: var(--text-color-secondary);
     border: 5px solid var(--primary-color-dark);
-    border-bottom: 5px solid var(--primary-color-light);    
+    border-bottom: 2px solid var(--primary-color-dark);    
     position: absolute;
     bottom: calc(5px + 1rem);
     right: 1vw;     

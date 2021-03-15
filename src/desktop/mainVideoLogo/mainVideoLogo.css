@@ -1,0 +1,41 @@
+#mainVideoLogoContainer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#mainVideoLogoBox {    
+	border: 2px solid var(--primary-color-dark);
+    width: 80%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1%;
+    border-radius: 5%;
+}
+
+#mainLogoVideo {
+	position: relative;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+    height: 60vh; 
+    object-fit: cover;
+    opacity: .4;
+    border-radius: 5%;
+}
+
+#mainLogoContent {
+    position: absolute;
+    align-self: center;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--text-color-primary);
+    width: 60%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 4vw;
+    
+}

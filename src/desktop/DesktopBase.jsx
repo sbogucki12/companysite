@@ -5,6 +5,7 @@ import OurCompany from './ourCompany/OurCompany';
 import Layout from './layout/Layout';
 import '../app.css';
 import './desktopBase.css';
+import MainVideoLogo from './mainVideoLogo/MainVideoLogo';
 
 function DesktopBase() {
 	return (
@@ -12,17 +13,9 @@ function DesktopBase() {
 			<main id="main">
 				<Layout
 					layout={{
-						row0: (
-							<div>
-								<h2>Row 0</h2>
-							</div>
-						),
-						row1: <TeamCardWidget />,
-						row2: (
-							<div>
-								<OurCompany />
-							</div>
-						),
+						row0: <MainVideoLogo />,
+						row1: <OurCompany />,
+						row2: <TeamCardWidget />,
 					}}
 				/>
 			</main>

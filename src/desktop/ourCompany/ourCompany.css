@@ -1,9 +1,15 @@
+#ourCompanyButtonNoBioContainer {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #ourCompanyContainer {
     display: grid;
-    grid-template-columns: 5vw 10vw 20vw 60vw 5vw;
-    min-width: 100%;
+    grid-template-columns: 5vw 10vw 20vw 50vw 5vw;
     justify-items: center;
     align-items: center;
+    color: var(--text-color-primary);
 }
 
 #ourCompanyArrowContainer {

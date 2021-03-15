@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import './contact.css';
 import ContactFormMain from './ContactFormMain';
 import Layout from '../layout/Layout';
-import ContactForm from './ContactForm';
 
 function Contact() {
 	return (
@@ -10,12 +9,12 @@ function Contact() {
 			<div>
 				<Layout
 					layout={{
-						row0: (
+						row0: <ContactFormMain />,
+						row1: (
 							<div>
-								<h2>Row1</h2>
+								<h2>Row2</h2>
 							</div>
 						),
-						row1: <ContactFormMain />,
 						row2: (
 							<div>
 								<h2>Row2</h2>

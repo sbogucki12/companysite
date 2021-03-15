@@ -12,12 +12,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--primary-color-light);
+    background-color: var(--primary-color);
     width: 100%;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    min-height: 40vh;
-    border-bottom: solid 5px var(--secondary-color-dark);
+    min-height: 75vh;
+    border-bottom: 2px solid var(--secondary-color-dark);
     border-bottom-left-radius: 25%;
 }
 
@@ -30,13 +30,15 @@
 }
 
 #layoutRow2Container {
-    background-color: var(--secondary-color-dark);
+    background-color: var(--primary-color-light);
     min-width: 100%;
     min-height: 30vh;
     color: var(--text-color-primary);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: solid 5px var(--primary-color-light);
+    border-top: 2px solid var(--secondary-color-dark);
     border-top-right-radius: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }

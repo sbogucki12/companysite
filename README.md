@@ -1,3 +1,9 @@
+## March 14, 2021 
+
+<p>Creating a little video logo:</p>
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/mainLogo0GIF.gif" />
+
+
 ## March 10, 2021 
 
 <p>Styling the layout:</p>
