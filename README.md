@@ -1,33 +1,33 @@
 ## March 14, 2021 
 
 <p>Creating a little video logo:</p>
-<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/mainLogo0GIF.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/mainLogo0GIF.gif" />
 
 
 ## March 10, 2021 
 
 <p>Styling the layout:</p>
-<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/layout0GIF.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/layout0GIF.gif" />
 
 ## March 9, 2021 
 
 <p>More on the contact component:</p>
-<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/contact2GIF.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/contact2GIF.gif" />
 
 
 # March 8, 2021 
 
 <p>Working on a contact component:</p>
-<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/contact1GIF.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/contact1GIF.gif" />
 
 
 
 ## March 6, 2021 
 
 <p>Making a little image / bio card for team members</p>
-<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/teamMemberWidgetGIF.gif" />
-<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/teamPicCardRowGIF.gif" />
-<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/teamMemberCardGIF.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/teamMemberWidgetGIF.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/teamPicCardRowGIF.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/teamMemberCardGIF.gif" />
 
 
 ## March 3, 2021
@@ -36,32 +36,32 @@
 <li>Archived old work</li>
 <li>Creating a custom  contact menu. Mostly CSS</li>
 </ul>
-<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/footerContactMenuGIF.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/footerContactMenuGIF.gif" />
 
 
 
 ## February 22, 2021
 
 <p>Gonna play around with Material UI:</p>
-<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/newStyle0.jpg" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/newStyle0.jpg" />
 
 
 ## February 1, 2021
 
 <p>Working toward something, hopefully...</p>
-<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/main02012021.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/main02012021.gif" />
 
 
 ## January 31, 2021
 
 <p>I'm kinda designing this as I go...</p>
-<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/main01312021.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/main01312021.gif" />
 
 
 ## January 23, 2021
 
 <p>Landing page, dialogs, with click away listeners</p>
-<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/landingPageGif1.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/landingPageGif1.gif" />
 
 
 
