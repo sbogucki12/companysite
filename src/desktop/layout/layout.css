@@ -19,6 +19,7 @@
     min-height: 75vh;
     border-bottom: 2px solid var(--secondary-color-dark);
     border-bottom-left-radius: 25%;
+    position: relative;
 }
 
 #layoutRow1Container {

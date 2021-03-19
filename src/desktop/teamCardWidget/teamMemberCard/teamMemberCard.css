@@ -1,44 +1,49 @@
 .teamMemberCardContainer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-direction: column;
-    background-color: var(--primary-color-dark);
-    padding-top: 8vh;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-bottom: 2vh;
-    position: relative; 
-    margin-right: 1px
-
+	display: flex;
+	align-items: center;	
+	flex-direction: column;    
+	background-color: var(--secondary-color-dark);
+	width: 25vw;
+    height: 180px; 
+	margin-right: 1px;
 }
 
 .teamMemberNameTitleContainer {
-    position: absolute;
-    top: 10%; 
-    left: 40%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	position: absolute;    
 }
 
-.teamMemberCardImage {   
-    position: relative; 
-      
+.teamMemberCardImageContainer {
+	position: relative;
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--secondary-color-light);
+    border-radius: 5%;
+    margin: 1%;
+}
+
+.teamCardBioContainer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 100%;
 }
 
 .teamMemberCardBio {
-    position: relative; 
-    margin-top: -5vh;  
-    max-width: 175px;
-    font-size: 70%;
-    background-color: var(--primary-color-light);
-    opacity: .9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: var(--text-color-primary)
+	position: relative;
+	max-width: 100%;	
+	font-size: 50%;
+	background-color: var(--primary-color-light);
+	opacity: 0.9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: var(--text-color-primary);
+    border: 3px solid var(--primary-color-dark);
+    margin: 1%; 
+    border-radius: 2%;
+    box-shadow: 0 5px 5px var(--primary-color);
 }
