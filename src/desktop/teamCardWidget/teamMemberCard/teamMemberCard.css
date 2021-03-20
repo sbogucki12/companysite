@@ -31,7 +31,7 @@
     height: 100%;
 }
 
-.teamMemberCardBio {
+.teamMemberCardBioContainer {
 	position: relative;
 	max-width: 100%;	
 	font-size: 50%;
@@ -46,4 +46,15 @@
     margin: 1%; 
     border-radius: 2%;
     box-shadow: 0 5px 5px var(--primary-color);
+}
+
+.teamMemberCardBioExit {
+	display: flex;
+	justify-content: flex-end; 
+	width: 100%;
+	margin-right: 3%;
+}
+
+.teamMemberCardBio {
+	padding: 2%; 
 }

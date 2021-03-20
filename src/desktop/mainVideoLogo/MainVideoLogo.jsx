@@ -8,9 +8,7 @@ function MainVideoLogo() {
 				<video autoPlay muted loop id="mainLogoVideo">
 					<source src={MainLogoBgVideo} type="video/mp4" />
 				</video>
-				<div id='mainLogoContent'>
-                    Company Name!
-                </div>
+				<div id="mainLogoContent">Company Name!</div>
 			</div>
 		</div>
 	);
