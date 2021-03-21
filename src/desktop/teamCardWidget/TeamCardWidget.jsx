@@ -5,7 +5,7 @@ function TeamCardWidget() {
 	return (
 		<div id="teamCardWidget">
 			<div id="meetOurTeamTitle">
-				<div>Meet Our Team</div>
+				<div>Our Leadership Team</div>
 			</div>
 			<div id="teamMemberCardRow">
 				<TeamMemberCard />

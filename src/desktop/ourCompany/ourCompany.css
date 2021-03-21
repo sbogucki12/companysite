@@ -1,18 +1,46 @@
+.ourCompanyButton {
+	white-space: nowrap;
+	color: var(--text-color-primary);
+	background-color: var(--primary-color-dark);
+	box-shadow: -2px 2px 5px -1px var(--secondary-color-light);	
+	border-bottom: 1px solid var(--secondary-color);
+	border-right: 1px solid var(--secondary-color);
+	border-left: 1.5px solid var(--primary-color-light);
+	border-top: 1.5px solid var(--primary-color-light);
+	
+}
+
+.ourCompanyButton:hover {
+	background-color: var(--secondary-color-dark);
+	
+	box-shadow: none;
+}
+
 .ourCompanyAnimation0 {
-	animation: fadeIn ease 1s;
-	-webkit-animation: fadeIn ease 1s;
-	-moz-animation: fadeIn ease 1s;
-	-o-animation: fadeIn ease 1s;
-	-ms-animation: fadeIn ease 1s;
+	animation: fadeIn ease .5s;
+	-webkit-animation: fadeIn ease .5s;
+	-moz-animation: fadeIn ease .5s;
+	-o-animation: fadeIn ease .5s;
+	-ms-animation: fadeIn ease .5s;
 }
 
 .ourCompanyAnimation1 {
-	animation: fadeIn ease 3s;
-	-webkit-animation: fadeIn ease 3s;
-	-moz-animation: fadeIn ease 3s;
-	-o-animation: fadeIn ease 3s;
-	-ms-animation: fadeIn ease 3s;
+	animation: fadeIn ease 1.5s;
+	-webkit-animation: fadeIn ease 1.5s;
+	-moz-animation: fadeIn ease 1.5s;
+	-o-animation: fadeIn ease 1.5s;
+	-ms-animation: fadeIn ease 1.5s;
 }
+
+.ourCompanyButtonAnimmation {
+	animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards;
+}
+
+@keyframes slide-in {
+	0% { -webkit-transform: translateX(300%); }
+	100% { -webkit-transform: translateX(0%); }
+ }
 
 @keyframes fadeIn {
 	0% {
@@ -69,3 +97,13 @@
 	justify-content: center;
 	align-items: center;
 }
+
+#ourCompanyContentContainer {
+	padding: 1%;
+	border: 1px solid var(--secondary-color-light);
+	border-radius: 5%;
+	box-shadow: -5px 5px 5px var(--primary-color-light);
+}
+
+
+

@@ -4,6 +4,11 @@ Make sure to set a link back to the origin of video in the logo. current video:
 https://www.pexels.com/video/digital-calculation-of-geometrical-space-3141211/
 Video by Pressmaster from Pexels
 
+## March 21, 2021 
+
+<p>Styling Our Company component:</p>
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/style1GIF.gif" />
+
 ## March 18, 2021 
 
 <p>Working on Meet Our Team widget:</p>

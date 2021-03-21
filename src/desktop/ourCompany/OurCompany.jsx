@@ -13,7 +13,7 @@ function OurCompany() {
 				</div>
 			) : (
 				<div>
-					<button onClick={() => setShowOurCompany(true)}>Our Company</button>
+					<button onClick={() => setShowOurCompany(true)} className='ourCompanyButton'>Our Company</button>
 				</div>
 			)}
 		</div>

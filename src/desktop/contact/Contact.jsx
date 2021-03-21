@@ -4,6 +4,8 @@ import ContactFormMain from './ContactFormMain';
 import Layout from '../layout/Layout';
 
 function Contact() {
+	window.scrollTo(0, 0);
+
 	return (
 		<div>
 			<div>
