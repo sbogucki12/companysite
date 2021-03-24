@@ -1,51 +1,53 @@
 # Note to Steve:
 
-Make sure to set a link back to the origin of video in the logo. current video:
-https://www.pexels.com/video/digital-calculation-of-geometrical-space-3141211/
-Video by Pressmaster from Pexels
+<p>Make sure to set a link back to the origin of video in the logo.</p>
 
-## March 21, 2021 
+<p>current video:</p>
+
+<ul>
+<li>https://www.pexels.com/video/digital-calculation-of-geometrical-space-3141211/</li>
+<li>Video by Pressmaster from Pexels</li>
+</ul>
+
+<p>background image:</p>
+<p>Image by <a href="https://pixabay.com/users/gam-ol-2829280/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6046596">Oleg Gamulinskiy</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6046596">Pixabay</a></p>
+
+## March 21, 2021
 
 <p>Styling Our Company component:</p>
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/style1GIF.gif" />
 
-## March 18, 2021 
+## March 18, 2021
 
 <p>Working on Meet Our Team widget:</p>
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/style0GIF.gif" />
 
-
-## March 14, 2021 
+## March 14, 2021
 
 <p>Creating a little video logo:</p>
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/mainLogo0GIF.gif" />
 
-
-## March 10, 2021 
+## March 10, 2021
 
 <p>Styling the layout:</p>
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/layout0GIF.gif" />
 
-## March 9, 2021 
+## March 9, 2021
 
 <p>More on the contact component:</p>
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/contact2GIF.gif" />
 
-
-# March 8, 2021 
+# March 8, 2021
 
 <p>Working on a contact component:</p>
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/contact1GIF.gif" />
 
-
-
-## March 6, 2021 
+## March 6, 2021
 
 <p>Making a little image / bio card for team members</p>
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/teamMemberWidgetGIF.gif" />
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/teamPicCardRowGIF.gif" />
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/teamMemberCardGIF.gif" />
-
 
 ## March 3, 2021
 
@@ -55,39 +57,25 @@ Video by Pressmaster from Pexels
 </ul>
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/footerContactMenuGIF.gif" />
 
-
-
 ## February 22, 2021
 
 <p>Gonna play around with Material UI:</p>
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/newStyle0.jpg" />
-
 
 ## February 1, 2021
 
 <p>Working toward something, hopefully...</p>
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/main02012021.gif" />
 
-
 ## January 31, 2021
 
 <p>I'm kinda designing this as I go...</p>
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/main01312021.gif" />
 
-
 ## January 23, 2021
 
 <p>Landing page, dialogs, with click away listeners</p>
 <img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/landingPageGif1.gif" />
-
-
-
-
-
-
-
-
-
 
 # Getting Started with Create React App
 

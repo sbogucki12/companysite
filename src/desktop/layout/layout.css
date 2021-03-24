@@ -1,45 +1,61 @@
-#layoutContainer {     
-    background-color: var(--primary-color-dark);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    padding-left: 1%;
-    padding-right: 1%;
-    flex-direction: column;    
+#layoutContainer {
+	background-color: var(--primary-color-dark);
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	padding-left: 1%;
+	padding-right: 1%;
+	flex-direction: column;
 }
 
-#layoutRow0Container {   
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--primary-color);
-    width: 100%;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    min-height: 75vh;
-    border-bottom: 2px solid var(--secondary-color-dark);
-    border-bottom-left-radius: 25%;
-    position: relative;
+#layoutRow0Container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--primary-color);
+	width: 100%;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	min-height: 75vh;
+	border-bottom: 2px solid var(--secondary-color-dark);
+	border-bottom-left-radius: 25%;
+	position: relative;
 }
 
 #layoutRow1Container {
-    width: 100%; 
-    min-height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	width: 100%;
+	min-height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	
+}
+
+#row1imageBackground {
+	opacity: 0.4;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 120%;
+}
+
+#row1content {
+	position: relative;
 }
 
 #layoutRow2Container {
-    background-color: var(--primary-color-light);
-    min-width: 100%;
-    min-height: 30vh;
-    color: var(--text-color-primary);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 2px solid var(--secondary-color-dark);
-    border-top-right-radius: 25%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+	background-color: var(--primary-color-light);
+	min-width: 100%;
+	min-height: 30vh;
+	color: var(--text-color-primary);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 2px solid var(--secondary-color-dark);
+	border-top-right-radius: 25%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	position: relative;
 }

@@ -6,13 +6,11 @@
 	border-bottom: 1px solid var(--secondary-color);
 	border-right: 1px solid var(--secondary-color);
 	border-left: 1.5px solid var(--primary-color-light);
-	border-top: 1.5px solid var(--primary-color-light);
-	
+	border-top: 1.5px solid var(--primary-color-light);	
 }
 
 .ourCompanyButton:hover {
-	background-color: var(--secondary-color-dark);
-	
+	background-color: var(--secondary-color-dark);	
 	box-shadow: none;
 }
 
@@ -103,6 +101,7 @@
 	border: 1px solid var(--secondary-color-light);
 	border-radius: 5%;
 	box-shadow: -5px 5px 5px var(--primary-color-light);
+	background-color: var(--primary-color-dark);
 }
 
 
