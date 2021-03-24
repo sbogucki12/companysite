@@ -12,6 +12,11 @@
 <p>background image:</p>
 <p>Image by <a href="https://pixabay.com/users/gam-ol-2829280/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6046596">Oleg Gamulinskiy</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6046596">Pixabay</a></p>
 
+## March 23, 2021
+
+<p>Added background image to layout:</p>
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/style2GIF.gif" />
+
 ## March 21, 2021
 
 <p>Styling Our Company component:</p>
