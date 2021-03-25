@@ -6,6 +6,7 @@ import Layout from './layout/Layout';
 import '../app.css';
 import './desktopBase.css';
 import MainVideoLogo from './mainVideoLogo/MainVideoLogo';
+import Portfolio from './portfolio/Portfolio';
 
 function DesktopBase() {
 	return (
@@ -16,6 +17,7 @@ function DesktopBase() {
 						row0: <MainVideoLogo />,
 						row1: <OurCompany />,
 						row2: <TeamCardWidget />,
+						row3: <Portfolio />,
 					}}
 				/>
 			</main>

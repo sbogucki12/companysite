@@ -5,7 +5,7 @@ function OurCompanyView(props) {
 		<div id='ourCompanyViewContainer'>
             <div />
 			<div className='ourCompanyViewColumnContainer ourCompanyButtonAnimmation'>
-				<button onClick={() => props.setShowOurCompany(false)} className="ourCompanyButton">About Us</button>
+				<button onClick={() => props.setShowOurCompany(false)} className="ourCompanyButton">Company Name</button>
 			</div>
 			<div className='ourCompanyViewColumnContainer ourCompanyAnimation0'>{``}</div>
 			<div className='ourCompanyViewColumnContainer ourCompanyAnimation1'>

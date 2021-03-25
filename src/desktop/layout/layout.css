@@ -12,7 +12,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: var(--primary-color);
+	background-color: var(--primary-color-light);
 	width: 100%;
 	padding-top: 5vh;
 	padding-bottom: 5vh;
@@ -46,7 +46,7 @@
 }
 
 #layoutRow2Container {
-	background-color: var(--primary-color-light);
+	background-color: var(--primary-color);
 	min-width: 100%;
 	min-height: 30vh;
 	color: var(--text-color-primary);
@@ -55,7 +55,24 @@
 	align-items: center;
 	border-top: 2px solid var(--secondary-color-dark);
 	border-top-right-radius: 25%;
+	border-bottom-left-radius: 2%;
+	border-bottom-right-radius: 2%;
 	padding-top: 3%;
 	padding-bottom: 3%;
+	position: relative;
+	box-shadow: 0 5px 5px var(--primary-color);
+	margin-bottom: 5px;
+}
+
+#layoutRow3Container {
+	background-color: var(--primary-color-dark);
+	min-width: 100%;
+	min-height: 30vh;
+	color: var(--text-color-primary);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid var(--secondary-color);
+	
 	position: relative;
 }
