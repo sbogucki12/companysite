@@ -10,7 +10,6 @@
 #portfolioTitleContainer {
     border: 1px solid var(--secondary-color-dark);
     border-radius: 5%;
-    margin-bottom: 2%;
     padding: .5%;
 }
 
@@ -20,7 +19,6 @@
     justify-content: space-evenly;
     flex-direction: row;
     width: 80vw;
-
 }
 
 .projectCardContainer {
@@ -28,17 +26,18 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    margin-top: 10%
 }
 
 #projectCardMiddleContainer {
     display: flex;
     align-items: flex-start;
+    margin-top: 5%;
 }
 
 .projectCardContentContainer {
     border: 2px solid var(--primary-color);
-    border-radius: 5%;    
-    min-height: 10vh; 
+    border-radius: 5%;       
     display: flex;
     align-items: center;
     justify-content: center;

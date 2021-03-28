@@ -1,0 +1,60 @@
+#headerContainer {
+    height: 5vh;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+#headerColContainer {
+	background-color: black;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    max-height: 5vh;
+    position: relative;   
+}
+
+#headerCol0Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    font-size: xx-small;
+}
+
+#headerCol1Container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
+    position: absolute;
+    
+}
+
+.servicesSlider { 
+      
+	/* complete liquid height based on the parent's height!! */
+    height: 1500%;
+
+    /* only transition on transform properties which are hardware accelerated = way better performances */
+	-webkit-transition:-webkit-transform .3s ease;
+       -moz-transition:   -moz-transform .3s ease;
+        -ms-transition:    -ms-transform .3s ease;
+            transition:        transform .3s ease;
+}
+
+.servicesSlider.opened {
+    
+    /* visible */
+    -webkit-transform: translate(0, 0%);
+       -moz-transform: translate(0, 0%);
+        -ms-transform: translate(0, 0%);
+            transform: translate(0, 0%);
+}
+.servicesSlider.closed { 
+    /* completely offscreen */
+    margin-top: -5%; 
+    -webkit-transform: translate(0, -100%);
+       -moz-transform: translate(0, -100%);
+        -ms-transform: translate(0, -100%);
+            transform: translate(0, -100%);
+}

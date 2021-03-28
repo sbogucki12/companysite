@@ -11,7 +11,7 @@ function Layout(props) {
 				<div id="row1content">{props.layout.row1}</div>
 			</div>
 			<div id="layoutRow2Container">{props.layout.row2}</div>
-			<div id="layoutRow3Container">{props.layout.row3}</div>
+			{/*<div id="layoutRow3Container">{props.layout.row3}</div>*/}
 		</div>
 	);
 }

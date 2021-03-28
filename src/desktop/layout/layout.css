@@ -42,7 +42,7 @@
 }
 
 #row1content {
-	position: relative;
+	position: relative;	
 }
 
 #layoutRow2Container {
@@ -65,12 +65,10 @@
 #layoutRow3Container {
 	background-color: var(--primary-color-dark);
 	min-width: 100%;
-	min-height: 30vh;
 	color: var(--text-color-primary);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-top: 1px solid var(--secondary-color);
-	
+	border-top: 1px solid var(--secondary-color);	
 	position: relative;
 }

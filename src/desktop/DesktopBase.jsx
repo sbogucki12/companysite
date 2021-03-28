@@ -7,10 +7,14 @@ import '../app.css';
 import './desktopBase.css';
 import MainVideoLogo from './mainVideoLogo/MainVideoLogo';
 import Portfolio from './portfolio/Portfolio';
+import Header from './header/Header';
 
 function DesktopBase() {
 	return (
 		<div>
+			<header id="header">
+				<Header />
+			</header>
 			<main id="main">
 				<Layout
 					layout={{

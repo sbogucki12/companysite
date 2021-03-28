@@ -85,7 +85,7 @@
 	}
 }
 
-#ourCompanyViewContainer {
+#ourCompanyViewContainer {	
 	display: grid;
 	grid-template-columns: auto 10% 10% 70% auto;
 }
