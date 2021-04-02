@@ -1,22 +1,25 @@
 import './services.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronCircleLeft, faChevronCircleRight } from '@fortawesome/free-solid-svg-icons';
+import ServicesList from './services.json';
 
 function Services(props) {
-	return  (
+	return (
 		<div id="servicesContainer">
 			<div id="servicesContentContainer">
-				<div>
-					<h1>Services</h1>
+				<div><FontAwesomeIcon icon={faChevronCircleLeft} className='servicesArrow' /></div>
+				<div id='servicesContentCard'>
+					<div>{ServicesList[0].icon}</div>
+					<div>{ServicesList[0].name}</div>
+					<div>{ServicesList[0].summary}</div>
 				</div>
-				<div>
-					<h4>Content</h4>
-				</div>
+				<div><FontAwesomeIcon icon={faChevronCircleRight} className='servicesArrow'/></div>
 			</div>
-
 			<div id="servicesExitButtonContainer">
 				<button onClick={() => props.setSliderClassName('closed')}>Close</button>
 			</div>
 		</div>
-	) 
+	);
 }
 
 export default Services;
