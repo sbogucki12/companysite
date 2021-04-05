@@ -12,6 +12,13 @@
 <p>background image:</p>
 <p>Image by <a href="https://pixabay.com/users/gam-ol-2829280/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6046596">Oleg Gamulinskiy</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6046596">Pixabay</a></p>
 
+
+## April 4, 2021
+
+<p>Mapping through an array and a nested array of services:</p>
+<img src="https://raw.githubusercontent.com/sbogucki12/companysite/main/readmeFiles/services1GIF.gif" />
+
+
 ## March 28, 2021
 
 <p>Custom slide in functionality:</p>
